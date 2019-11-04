@@ -34,37 +34,37 @@ PreeditInApplicaation=True
 
 # 截图
 
-丑陋的双行模式：
+## 丑陋的双行模式：
 
 ![No-Preedit](./screenshot/No-Preedit.png)
 
-漂亮的单行模式：
+## 漂亮的单行模式：
 
-pink:
+### pink:
 
 ![粉红色](./screenshot/pink.png)
 
-blue:
+### blue:
 
 ![蓝色](./screenshot/blue.png)
 
-brown:
+### brown:
 
 ![棕色](./screenshot/brown.png)
 
-deepPurple:
+### deepPurple:
 
 ![深紫色](./screenshot/deepPurple.png)
 
-Indigo:
+### Indigo:
 
 ![Indigo](./screenshot/indigo.png)
 
-red:
+### red:
 
 ![红色](./screenshot/red.png)
 
-teal:
+### teal:
 
 ![Teal](./screenshot/teal.png)
 
