@@ -56,7 +56,7 @@ PreeditInApplicaation=True
 
 ![深紫色](./screenshot/deepPurple.png)
 
-### Indigo:
+### indigo:
 
 ![Indigo](./screenshot/indigo.png)
 
