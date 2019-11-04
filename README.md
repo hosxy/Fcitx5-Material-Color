@@ -41,24 +41,31 @@ PreeditInApplicaation=True
 漂亮的单行模式：
 
 pink:
+
 ![粉红色](./screenshot/pink.png)
 
 blue:
+
 ![蓝色](./screenshot/blue.png)
 
 brown:
+
 ![棕色](./screenshot/brown.png)
 
 deepPurple:
+
 ![深紫色](./screenshot/deepPurple.png)
 
 Indigo:
+
 ![Indigo](./screenshot/Indigo.png)
 
 red:
+
 ![红色](./screenshot/red.png)
 
 teal:
+
 ![Teal](./screenshot/teal.png)
 
 
