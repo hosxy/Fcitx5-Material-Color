@@ -81,3 +81,6 @@ ln -sf ./panel-blue.png  panel.png
 ln -sf ./highlight-blue.png  highlight.png
 ```
 
+# 备注
+1. 暂不支持 fcitx5-rime
+2. 在使用 xim 的程序(非GTK,非QT程序)中无法使用单行模式，比如 xterm alacritty ...
