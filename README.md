@@ -1,7 +1,10 @@
+# Material-Color
+这个主题旨在模仿 Windows10 自带输入法的UI
+
 # 使用方式
 ```
 mkdir -p ~/.local/share/fcitx5/themes/Material-Color
-git clone https://github.com/hosxy/Material-Color.git ~/.local/share/fcitx5/themes/Material-Color
+git clone https://github.com/hosxy/Fcitx5-Material-Color.git ~/.local/share/fcitx5/themes/Material-Color
 ```
 
 然后修改配置文件： `~/.config/fcitx5/conf/classicui.conf`
@@ -20,13 +23,54 @@ Font="思源黑体 CN Medium 13"
 Theme=Material-Color
 ```
 
+要使用单行模式(inline_preedit),请修改 `~/.config/fcitx5/conf/pinyin.conf`, 加入/修改以下内容：
+
+```
+# 开启单行预编辑模式
+PreeditInApplicaation=True
+```
+
+**注意: 修改配置文件时，请务必退出 fcitx5 输入法，因为输入法退出时会覆盖配置文件**
+
 # 截图
 
-![Screenshot](./screenshot-1.png)
+丑陋的双行模式：
 
-![Screenshot](./screenshot-2.png)
+![No-Preedit](./screenshot/No-Preedit.png)
 
-图一是五笔，图二是拼音/双拼。我也不知道该如何统一风格，只能这样了，我个人的话比较喜欢图一的风格。<br>
-这是我在fcitx5提的相关[issue](https://github.com/fcitx/fcitx5-chinese-addons/issues/3))
+漂亮的单行模式：
 
-**Tips:我用的是粉红，主题里还有其他的颜色，不喜欢粉红的可以自己换。**
+pink:
+![粉红色](./screenshot/pink.png)
+
+blue:
+![蓝色](./screenshot/blue.png)
+
+brown:
+![棕色](./screenshot/brown.png)
+
+deepPurple:
+![深紫色](./screenshot/deepPurple.png)
+
+Indigo:
+![Indigo](./screenshot/Indigo.png)
+
+red:
+![红色](./screenshot/red.png)
+
+teal:
+![Teal](./screenshot/teal.png)
+
+
+
+# 更换配色方案
+主题默认配色方案是：pink <br>
+由于目前 fcitx5 还没有图形界面的主题编辑器，跟换配色方案需要使用命令行，<br>
+比如将配色方案切换为 blue：
+
+```
+cd ~/.local/share/fcitx5/themes/Material-Color
+ln -sf ./panel-blue.png  panel.png
+ln -sf ./highlight-blue.png  highlight.png
+```
+
