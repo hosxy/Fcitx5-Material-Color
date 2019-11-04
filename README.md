@@ -58,7 +58,7 @@ deepPurple:
 
 Indigo:
 
-![Indigo](./screenshot/Indigo.png)
+![Indigo](./screenshot/indigo.png)
 
 red:
 
