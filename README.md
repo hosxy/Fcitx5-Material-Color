@@ -1,5 +1,5 @@
 # Material-Color
-这个主题旨在模仿 Windows10 自带输入法的UI
+这个主题使用了 Material Design 定义的标准颜色，界面旨在模仿 Windows10 自带输入法的UI。
 
 # 使用方式
 ```
