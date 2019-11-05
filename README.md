@@ -83,5 +83,5 @@ ln -sf ./highlight-blue.png  highlight.png
 **Tips：切换配色方案后须重启输入法**
 
 # 备注
-1. 暂不支持 fcitx5-rime
-2. 在使用 xim 的程序(非GTK,非QT程序)中无法使用单行模式，比如 xterm alacritty ...
+1. fcitx5-rime 暂不支持单行模式
+2. 使用 xim 的程序(非GTK非QT程序)中无法使用单行模式，比如 xterm alacritty ...
