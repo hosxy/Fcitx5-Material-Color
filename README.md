@@ -80,6 +80,7 @@ cd ~/.local/share/fcitx5/themes/Material-Color
 ln -sf ./panel-blue.png  panel.png
 ln -sf ./highlight-blue.png  highlight.png
 ```
+**Tips：切换配色方案后须重启输入法**
 
 # 备注
 1. 暂不支持 fcitx5-rime
