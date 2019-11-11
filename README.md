@@ -2,6 +2,7 @@
 这个主题使用了 Material Design 定义的标准颜色，界面旨在模仿 Windows10 自带输入法的UI。
 
 # 使用方式
+
 ```
 mkdir -p ~/.local/share/fcitx5/themes/Material-Color
 git clone https://github.com/hosxy/Fcitx5-Material-Color.git ~/.local/share/fcitx5/themes/Material-Color
@@ -30,7 +31,27 @@ Theme=Material-Color
 PreeditInApplicaation=True
 ```
 
-**注意: 修改配置文件时，请务必退出 fcitx5 输入法，因为输入法退出时会覆盖配置文件**
+**注意: 修改配置文件时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖**
+
+### 设置配色方案：
+由于目前 fcitx5 还没有图形界面的主题编辑器，设置/切换配色方案需要使用命令行，<br>
+比如将配色方案设置/切换为 blue：
+
+```
+cd ~/.local/share/fcitx5/themes/Material-Color
+ln -sf ./panel-blue.png  panel.png
+ln -sf ./highlight-blue.png  highlight.png
+```
+**Tips1：第一次使用时必须设置一种配色方案(不然会打回原形)，因为一些原因不方便设置一个默认的配色方案**<br>
+**Tips2：设置/切换配色方案后须重启输入法以生效**
+
+### 更新：
+想要更新这个皮肤很简单，打开一个终端，执行以下命令：
+
+```
+cd ~/.local/share/fcitx5/themes/Material-Color
+git pull
+```
 
 # 截图
 
@@ -68,19 +89,6 @@ PreeditInApplicaation=True
 
 ![Teal](./screenshot/teal.png)
 
-
-
-# 更换配色方案
-主题默认配色方案是：pink <br>
-由于目前 fcitx5 还没有图形界面的主题编辑器，跟换配色方案需要使用命令行，<br>
-比如将配色方案切换为 blue：
-
-```
-cd ~/.local/share/fcitx5/themes/Material-Color
-ln -sf ./panel-blue.png  panel.png
-ln -sf ./highlight-blue.png  highlight.png
-```
-**Tips：切换配色方案后须重启输入法**
 
 # 备注
 1. fcitx5-rime 暂不支持单行模式
