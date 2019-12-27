@@ -24,9 +24,9 @@ Font="思源黑体 CN Medium 13"
 Theme=Material-Color
 ```
 
-要使用单行模式(inline_preedit),
-对于fcitx5自带pinyin 请修改 `~/.config/fcitx5/conf/pinyin.conf`, 
-对于fcitx5-rime，请修改 `~/.config/fcitx5/conf/rime.conf` ，
+要使用单行模式(inline_preedit),<br>
+对于fcitx5自带pinyin 请修改 `~/.config/fcitx5/conf/pinyin.conf`, <br>
+对于fcitx5-rime，请新建/修改 `~/.config/fcitx5/conf/rime.conf` ，<br>
 加入/修改以下内容：
 
 ```
@@ -34,7 +34,7 @@ Theme=Material-Color
 PreeditInApplicaation=True
 ```
 
-**注意: 修改配置文件时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖**
+**注意: 修改配置文件 `~/.config/fcitx5/profile` 时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖，修改其他配置文件可以不用退出fcitx5输入法，重启生效**
 
 ### 设置配色方案：
 由于目前 fcitx5 还没有图形界面的主题编辑器，设置/切换配色方案需要使用命令行，<br>
