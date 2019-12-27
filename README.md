@@ -24,10 +24,13 @@ Font="思源黑体 CN Medium 13"
 Theme=Material-Color
 ```
 
-要使用单行模式(inline_preedit),请修改 `~/.config/fcitx5/conf/pinyin.conf`, 加入/修改以下内容：
+要使用单行模式(inline_preedit),
+对于fcitx5自带pinyin 请修改 `~/.config/fcitx5/conf/pinyin.conf`, 
+对于fcitx5-rime，请修改 `~/.config/fcitx5/conf/rime.conf` ，
+加入/修改以下内容：
 
 ```
-# 开启单行预编辑模式
+# 可用时在应用程序中显示预编辑文本
 PreeditInApplicaation=True
 ```
 
@@ -91,5 +94,4 @@ git pull
 
 
 # 备注
-1. fcitx5-rime 暂不支持单行模式
-2. 使用 xim 的程序(非GTK非QT程序)中无法使用单行模式，比如 xterm alacritty ...
+1. 使用 xim 的程序(非GTK非QT程序)中无法使用单行模式，比如 xterm alacritty ...
