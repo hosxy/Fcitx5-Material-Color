@@ -62,7 +62,7 @@ git pull
 
 ![No-Preedit](./screenshot/No-Preedit.png)
 
-## 漂亮的单行模式：
+## 漂亮的单行模式(preedit)：
 
 ### pink:
 
@@ -95,3 +95,4 @@ git pull
 
 # 备注
 1. 使用 xim 的程序(非GTK非QT程序)中无法使用单行模式，比如 xterm alacritty ...
+2. 较新版本 fcitx5 默认禁用了 gvim 的单行模式，若需启用，只需将环境变量`FCITX_NO_PREEDIT_APPS`设置为空即可。
