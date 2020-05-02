@@ -79,7 +79,7 @@ git pull
 
 ```
 # 可用时在应用程序中显示预编辑文本
-PreeditInApplicaation=True
+PreeditInApplication=True
 ```
 
 **注意: 修改配置文件 `~/.config/fcitx5/profile` 时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖，修改其他配置文件可以不用退出fcitx5输入法，重启生效**
