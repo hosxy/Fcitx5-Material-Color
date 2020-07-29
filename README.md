@@ -34,14 +34,13 @@ Theme=Material-Color-Pink
 mkdir -p ~/.local/share/fcitx5/themes/Material-Color
 git clone https://github.com/hosxy/Fcitx5-Material-Color.git ~/.local/share/fcitx5/themes/Material-Color
 ```
-+ #### 设置配色方案：
-    由于目前 fcitx5 还没有图形界面的主题编辑器，设置/切换配色方案需要使用命令行，<br>
++ #### 手动设置配色方案：
+    手动设置/切换配色方案需要使用命令行，<br>
 比如将配色方案设置/切换为 blue：
 
 ```
 cd ~/.local/share/fcitx5/themes/Material-Color
-ln -sf ./panel-blue.png  panel.png
-ln -sf ./highlight-blue.png  highlight.png
+ln -sf ./theme-blue.conf  theme.conf
 ```
 >  **Tips1：第一次使用时必须设置一种配色方案(不然会打回原形)，因为一些原因不方便设置一个默认的配色方案**<br>
   **Tips2：设置/切换配色方案后须重启输入法以生效**
