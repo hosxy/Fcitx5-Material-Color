@@ -5,6 +5,7 @@
 ## 安装
 ### 发行版包管理器
 + **Arch Linux：** `pacman -S fcitx5-material-color` <br>
++ **[Debian](https://tracker.debian.org/pkg/fcitx5-material-color)：** `apt install fcitx5-material-color` <br>
 
 然后修改配置文件： `~/.config/fcitx5/conf/classicui.conf`
 ```
