@@ -97,7 +97,7 @@ git pull
 PreeditInApplication=True
 ```
 
-**注意**：修改配置文件 `~/.config/fcitx5/profile` 时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖；修改其他配置文件可以不用退出 fcitx5 输入法，重启生效
+**注意**：修改配置文件 `~/.config/fcitx5/profile` 时，请务必退出 fcitx5 输入法，否则会因为输入法退出时会覆盖配置文件导致之前的修改被覆盖；修改其他配置文件可以不用退出 fcitx5 输入法，重启生效。
 
 # 截图
 
@@ -137,5 +137,5 @@ PreeditInApplication=True
 
 # 备注
 
-1. 使用 xim 的程序（非 GTK 非 QT 程序）中无法使用单行模式，如 xterm, alacritty…
+1. 使用 xim 的程序（非 GTK 非 Qt 程序）中无法使用单行模式，如 xterm, alacritty…
 2. 较新版本 fcitx5 默认禁用了 gvim 的单行模式，若需启用，只需将环境变量 `FCITX_NO_PREEDIT_APPS` 设置为空即可。
