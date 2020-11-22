@@ -36,6 +36,7 @@ Theme=Material-Color-Pink
 + Material-Color-Indigo
 + Material-Color-Red
 + Material-Color-Teal
++ Material-Color-Black
 
 ### 手动安装
 
@@ -134,6 +135,10 @@ PreeditInApplication=True
 ### teal
 
 ![Teal](./screenshot/teal.png)
+
+### black
+
+![Black](./screenshot/black.png)
 
 # 备注
 
