@@ -37,6 +37,8 @@ Theme=Material-Color-Pink
 + Material-Color-Red
 + Material-Color-Teal
 + Material-Color-Black
++ Material-Color-Black
++ Material-Color-Orange
 
 ### 手动安装
 
