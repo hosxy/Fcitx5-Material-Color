@@ -140,6 +140,9 @@ PreeditInApplication=True
 
 ![Black](./screenshot/black.png)
 
+### orange
+![Orange](./screenshot/orange.png)
+
 # 备注
 
 1. 使用 xim 的程序（非 GTK 非 Qt 程序）中无法使用单行模式，如 xterm, alacritty…
