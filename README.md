@@ -38,6 +38,7 @@ Theme=Material-Color-Pink
 + Material-Color-Teal
 + Material-Color-Black
 + Material-Color-Orange
++ Material-Color-SakuraPink
 
 ### 手动安装
 
@@ -142,7 +143,13 @@ PreeditInApplication=True
 ![Black](./screenshot/black.png)
 
 ### orange
+
 ![Orange](./screenshot/orange.png)
+
+### sakuraPink
+
+![sakuraPink](./screenshot/sakuraPink.png)
+
 
 # 备注
 
